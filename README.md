@@ -49,15 +49,19 @@ Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com **Ja
    ```bash
    mvn spring-boot:run
    * A API estará rodando em http://localhost:8080
+   
 ## 📌 Endpoints da API
-Método,Rota,Descrição
-POST,/users/,Cadastra um novo usuário
-POST,/tasks/,Cria uma tarefa (Requer Auth)
-GET,/tasks/,Lista tarefas do usuário logado
-PUT,/tasks/{id},Atualiza uma tarefa por ID
+
+| Método | Rota | Descrição |
+| :--- | :--- | :--- |
+| `POST` | `/users/` | Cadastra um novo usuário |
+| `POST` | `/tasks/` | Cria uma tarefa (Requer Auth) |
+| `GET` | `/tasks/` | Lista tarefas do usuário logado |
+| `PUT` | `/tasks/{id}` | Atualiza uma tarefa por ID |
 
 ## 📂 Estrutura de Arquivos
 
+```text
 src/main/java/br/com/vinicius/todolist/
 ├── errors/     # Tratamento de exceções customizadas
 ├── filter/     # Filtros de autenticação (Basic Auth)
@@ -70,5 +74,6 @@ Se preferir utilizar containers, utilize o Dockerfile incluso:
 ```bash
 docker build -t todolist-app .
 docker run -p 8080:8080 todolist-app
+```
 
 Feito por Vinicius 🚀
