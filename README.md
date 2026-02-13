@@ -68,6 +68,7 @@ src/main/java/br/com/vinicius/todolist/
 ├── task/       # Model, Repository e Controller de Tarefas
 ├── user/       # Model, Repository e Controller de Usuários
 └── utils/      # Classes utilitárias (Copy Properties)
+```
 
 ## 🐳 Rodando com Docker
 Se preferir utilizar containers, utilize o Dockerfile incluso:
