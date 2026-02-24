@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com **Java** e **Spring Boot**. O sistema conta com autenticação de usuários, criptografia de senhas e persistência de dados.
+Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com Java e Spring Boot. O sistema conta com autenticação de usuários, criptografia de senhas e persistência de dados utilizando PostgreSQL como banco de dados relacional.
 
 ---
 
