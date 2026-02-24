@@ -2,6 +2,7 @@
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com **Java** e **Spring Boot**. O sistema conta com autenticação de usuários, criptografia de senhas e persistência de dados.
@@ -25,7 +26,7 @@ Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com **Ja
 
 * **Linguagem:** Java 17
 * **Framework:** Spring Boot 3.2.5
-* **Banco de Dados:** H2 Database (em memória para desenvolvimento)
+* **Banco de Dados:** PostgreSQL
 * **Segurança:** BCrypt (at.favre.lib)
 * **Produtividade:** Lombok
 * **DevOps:** Docker & Dockerfile
@@ -41,7 +42,7 @@ Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com **Ja
 ### Passo a passo
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/todolist.git](https://github.com/SEU_USUARIO/todolist.git)
+   git clone [[https://github.com/SEU_USUARIO/todolist.git](https://github.com/SEU_USUARIO/todolist.git)](https://github.com/viniciusmarlin/task-manager-api)
 2. Instale as dependências:
    ```bash
    mvn clean install
