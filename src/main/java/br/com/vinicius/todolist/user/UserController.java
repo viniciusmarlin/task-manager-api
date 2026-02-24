@@ -22,7 +22,7 @@ public class UserController {
         // VALIDATOR
         var user = this.userRepository.findByUsername(userModel.getUsername());
 
-        // SE USUARIO NÃO FOR NULO ELE JÁ EXISTE
+        // SE USUARIO FOR DIFERENTE DE NULO ELE JÁ EXISTE; RETORNAR ERROR
         if(user != null) {
             // Error message
             // Status code

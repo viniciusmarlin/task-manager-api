@@ -1,2 +1,6 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+target/ export-ignore
+.idea/ export-ignore
+.iml export-ignore
+.env export-ignore

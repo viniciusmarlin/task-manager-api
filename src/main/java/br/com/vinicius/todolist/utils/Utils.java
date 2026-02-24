@@ -10,11 +10,29 @@ import java.util.Set;
 
 public class Utils {
 
+    /**
+     * Copia apenas as propriedades NÃO NULAS do objeto source para o objeto target.
+     *
+     * Muito útil em operações de atualização parcial (ex: PATCH),
+     * onde não queremos sobrescrever valores existentes com null.
+     *
+     * @param source objeto de origem com os novos valores
+     * @param target objeto que será atualizado
+     */
     public static void copyNonNullProperties(Object source, Object target) {
         BeanUtils.copyProperties(source, target, getNullPropertyNames(source));
     }
 
-    // Procura e pega qualquer propriedade nula
+    /**
+     * Retorna um array contendo o nome de todas as propriedades nulas
+     * do objeto informado.
+     *
+     * Esse método é usado internamente para que o BeanUtils ignore
+     * essas propriedades durante a cópia.
+     *
+     * @param source objeto que será inspecionado
+     * @return array com os nomes das propriedades que estão null
+     */
     public static String[] getNullPropertyNames(Object source) {
         final BeanWrapper src = new BeanWrapperImpl(source);
 

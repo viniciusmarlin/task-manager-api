@@ -28,4 +28,5 @@ public class UserModel {
     // Data Criado
     @CreationTimestamp
     private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
 }
