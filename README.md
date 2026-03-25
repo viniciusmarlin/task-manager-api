@@ -42,7 +42,7 @@ Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com Java
 ### Passo a passo
 1. Clone o repositório:
    ```bash
-   git clone [[https://github.com/SEU_USUARIO/todolist.git](https://github.com/SEU_USUARIO/todolist.git)](https://github.com/viniciusmarlin/task-manager-api)
+   git clone [[https://github.com/viniciusmarlin/todolist.git](https://github.com/SEU_USUARIO/todolist.git)](https://github.com/viniciusmarlin/task-manager-api)
 2. Instale as dependências:
    ```bash
    mvn clean install
@@ -63,7 +63,7 @@ Uma API robusta para gerenciamento de tarefas (To-Do List) desenvolvida com Java
 ## 📂 Estrutura de Arquivos
 
 ```text
-src/main/java/br/com/vinicius/todolist/
+src/main/java/br/com/seuusuario/todolist/
 ├── errors/     # Tratamento de exceções customizadas
 ├── filter/     # Filtros de autenticação (Basic Auth)
 ├── task/       # Model, Repository e Controller de Tarefas
